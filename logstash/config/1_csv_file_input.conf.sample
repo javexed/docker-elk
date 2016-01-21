@@ -1,0 +1,7 @@
+input {
+	file {
+		path => "/opt/logs/samples/*.csv"
+		type => "some_unique"
+		start_position => "beginning"
+	}
+}
